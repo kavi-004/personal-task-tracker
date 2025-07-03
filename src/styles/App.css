@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body.dark {
+  background: #121212;
+  color: #676767;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  margin: 5px 0 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+body.dark form input,
+body.dark form textarea,
+body.dark form select {
+  background: #1e1e1e;
+  color: #eee;
+  border: 1px solid #555;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+body.dark button {
+  background: #3399ff;
+  color: #fff;
+}
+
+body.dark button:hover {
+  background: #1a73e8;
+}
+
+button.active-filter {
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+  background: #e7f1ff;
+  color: #007bff;
+}
+
+body.dark button.active-filter {
+  background: #004080;
+  border-bottom: 2px solid #66ccff;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+body.dark li {
+  background: #1e1e1e;
+  border: 1px solid #333;
+}
+
+li input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+small {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+body.dark small {
+  color: #393939;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
