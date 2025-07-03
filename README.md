@@ -27,7 +27,7 @@ A simple personal task tracker built with React. Users can log in with a usernam
 - LocalStorage
 
 ## 🔗 Live Demo
-[Add your live link here!]
+https://personal-task-tracker-git-main-kavindyas-projects-4a97af22.vercel.app
 
 ## 🖼 Screenshots
-![Screenshot 1](./screenshots/screenshot1.png)
+![TASK-TRACKER](./screenshot1.png)
